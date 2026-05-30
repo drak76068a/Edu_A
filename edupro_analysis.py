@@ -13,7 +13,7 @@ PALETTE  = "Set2"
 FIG_SIZE = (10, 6)
 
 
-FILE = r"c:\Users\Lenovo\Downloads\EduPro Online Platform.xlsx"
+FILE = "EduPro_Online_Platform.xlsx"
 
 users        = pd.read_excel(FILE, sheet_name="Users")
 courses      = pd.read_excel(FILE, sheet_name="Courses")
